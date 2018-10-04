@@ -1,7 +1,7 @@
 {
-  "name": "eosjs",
+  "name": "eosjc",
   "version": "16.0.9",
-  "description": "General purpose library for the EOS blockchain.",
+  "description": "General purpose library for EOSIO blockchains.",
   "main": "lib/index.js",
   "files": [
     "README.md",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EOSIO/eosjs.git"
+    "url": "git+https://github.com/jcalfee/eosjc.git"
   },
   "keywords": [
     "EOS",
@@ -33,9 +33,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EOSIO/eosjs/issues"
+    "url": "https://github.com/jcalfee/eosjc/issues"
   },
-  "homepage": "https://github.com/EOSIO/eosjs#readme",
+  "homepage": "https://github.com/jcalfee/eosjc#readme",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",

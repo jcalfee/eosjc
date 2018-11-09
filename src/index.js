@@ -44,7 +44,7 @@ module.exports = Eos
 Object.assign(
   Eos,
   {
-    version: '16.0.0',
+    version: '16.0.10',
     modules: {
       format,
       api: EosApi,
@@ -128,7 +128,7 @@ function createEos(config) {
 function safeConfig(config) {
   // access control is shallow references only
   const readOnly = new Set(['httpEndpoint', 'abiCache', 'chainId', 'expireInSeconds'])
-  const readWrite = new Set(['verbose', 'debug', 'broadcast', 'logger', 'sign'])
+  const readWrite = new Set(['verbose', 'debug', 'broadcast', 'logger', 'sign', 'forceActionDataHex'])
   const protectedConfig = {}
 
   Object.keys(config).forEach(key => {

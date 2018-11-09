@@ -226,10 +226,10 @@ const Symbol = validation => {
 
     toObject (value) {
       if (validation.defaults && value == null) {
-        return 'SYS'
+        return '4,SYS'
       }
-      // symbol only (without precision prefix)
-      return parseAsset(value).symbol
+      const {symbol, precision} = parseAsset(value)
+      return `${precision},${symbol}`
     }
   }
 }

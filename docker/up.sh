@@ -8,11 +8,12 @@ set -o xtrace
 docker-compose down
 
 # Update docker
-#docker-compose pull
+docker-compose build
 
 # Start the server for testing
 docker-compose up -d
-docker-compose logs -f | egrep -v 'Produced block 0' &
+# docker-compose logs -f | egrep -v 'Produced block 0' &
+docker-compose logs -f 2>&1 | egrep -v '\[trxs: 0, lib: [0-9]+, confirmed: 0\]$' &
 sleep 2
 
 

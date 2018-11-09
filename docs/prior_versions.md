@@ -1,7 +1,7 @@
 
 | [EOSIO/eosjs](/EOSIO/eosjs) | [Npm](https://www.npmjs.com/package/eosjs) | [EOSIO/eos](https://github.com/EOSIO/eos) | [Docker Hub](https://hub.docker.com/r/eosio/eos/) |
 | --- | --- | --- | --- |
-| tags: 16.0.0 - 16.0.9 | `npm install eosjs@16.0.9` | tags: v1.1.n - v1.2.4 | eosio/eos:v1.2.4 |
+| tags: 16.0.0 - 16.0.9 | `npm install eosjc@16.0.10` | tags: v1.1.n - v1.2.4 | eosio/eos:v1.2.4 |
 
 
 | [EOSIO/eosjs](/EOSIO/eosjs) | [Npm](https://www.npmjs.com/package/eosjs) | [EOSIO/eos](https://github.com/EOSIO/eos) | [Docker Hub](https://hub.docker.com/r/eosio/eos/) |

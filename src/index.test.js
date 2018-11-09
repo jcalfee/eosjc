@@ -217,6 +217,9 @@ describe('Contract', () => {
       if(!diskAbi.error_messages) {
         diskAbi.error_messages = []
       }
+      if(diskAbi.variants == undefined) {
+        diskAbi.variants = []
+      }
 
       assert.deepEqual(diskAbi, code.abi)
     })

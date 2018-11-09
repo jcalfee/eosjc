@@ -44,7 +44,7 @@ module.exports = Eos
 Object.assign(
   Eos,
   {
-    version: '16.0.10',
+    version: '16.0.11',
     modules: {
       format,
       api: EosApi,

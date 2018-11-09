@@ -1,6 +1,6 @@
 {
   "name": "eosjc",
-  "version": "16.0.9",
+  "version": "16.0.10",
   "description": "General purpose library for EOSIO blockchains.",
   "main": "lib/index.js",
   "files": [
